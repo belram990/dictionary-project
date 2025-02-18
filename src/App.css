@@ -1,6 +1,12 @@
+body {
+  background: rgb(63, 63, 63);
+}
+
+
 .App {
   text-align: center;
-
+font-size: 42px;
+margin-top: 50px;
 }
 
 

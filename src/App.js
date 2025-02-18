@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     Hello
-      
+     <header> Hello </header>
+    <button className='btn btn-primary'>Search</button>
     </div>
   );
 }
