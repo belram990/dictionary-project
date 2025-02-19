@@ -1,12 +1,47 @@
 .Dictionary {
-    color: beige;
+    color: rgb(53, 53, 48);
     margin-top: 40px;
     text-align: center;
   
 }
+
+
+.Dictionary section{
+   
+    background: #b0b0b0;
+    padding: 30px ;
+    border-radius: 16px;
+    box-shadow: 1px 5px 10px 5px #53595e;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 60%;
+
+}
+
+.Dictionary input{
+    width: 40%;
+    box-shadow: 0 1px 10px 0 #3e3e3e;
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
 
 .Results {
     text-align: justify;
     margin-top: 50px;
 }
 
+.Results h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0.7;
+}
+
+.Phonetic{
+    font-style: italic;
+    opacity: 0.8;
+    margin-left: 10px;
+    
+}

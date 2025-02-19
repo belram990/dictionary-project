@@ -10,7 +10,7 @@ function App() {
       <div className='container'>
         <header>Dictionary App</header>
 
-     <Dictionary />
+     <Dictionary defaultKeyword="Dictionary"/>
 
     <footer>Coded by 👩🏻‍💻 Donabel Liotta</footer>
     </div>

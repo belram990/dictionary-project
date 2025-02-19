@@ -5,7 +5,8 @@ body {
 
 .App header{
  text-align: center;
-  font-size: 48px;
+  font-size: 55px;
+  font-weight: bold;
   color:whitesmoke;
 margin-top: 50px;
 }

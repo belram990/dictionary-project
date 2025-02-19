@@ -1,0 +1,29 @@
+.Meaning h3{
+font-size: 24px;
+line-height: 1.5;
+font-weight: bold;
+}
+
+.Meaning .definition{
+    line-height:1;
+}
+
+.Meaning .example{
+    font-size: 14px;
+    line-height: 2.5;
+}
+
+.example span{
+  font-style: italic;  
+  color: rgb(68, 67, 67);
+}
+
+.Synonyms {
+    font-size: 14px;
+}
+
+.Synonyms li{
+    display: inline;
+    padding-right: 15px;
+    font-style: italic;
+}
