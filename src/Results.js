@@ -1,14 +1,19 @@
 import React from "react";
 import Meaning from "./Meaning";
+import Phonetic from "./Phonetic";
+
 
 import "./Dictionary.css";
 
 export default function Results(props){
-    console.log(props.results)
     if (props.results) {
      return(
         <div className="Results">
 <h2 className="text-capitalize">{props.results.word}</h2>
+        <small>
+            <Phonetic phonetic={props.results.phonetic} />
+            </small>
+<div>
 {props.results.meanings.map(function(meaning, index){
     return (
         <div key={index}>
@@ -16,8 +21,10 @@ export default function Results(props){
             </div>
     );
 })}
+</div>
   </div>
-    );   
+    );  
+     
     } else {
         return null;
     }
