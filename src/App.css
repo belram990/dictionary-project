@@ -15,5 +15,12 @@ margin-top: 50px;
 text-align: center;
   margin: 30px 0;
   font-size: 14px;
+  color:#a7a7a2;
+
 }
 
+.App footer a{
+  color: #927fbf;
+  text-decoration: none;
+
+}
